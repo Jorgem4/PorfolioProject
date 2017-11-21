@@ -1,0 +1,30 @@
+body{
+  background: url("kziAoNv.gif");
+}
+
+.main_title{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  border-bottom: 5px ridge #58d68d;
+}
+
+.info_heading{
+  font-size: 1.4em;
+  font-family: monospace;
+  text-align: center;
+}
+
+.bottom{
+  text-align: center;
+}
+
+.bottom_button{
+  width: 100px;
+  height: 25px;
+  background-color: #48c9b0;
+  color: #000;
+  border-radius: 10%;
+}

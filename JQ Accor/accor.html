@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<title>jQuery UI Accordion Example</title>
+	<!-- These 2 lines would be included if jquery were hosted locally
+	<script src="jquery-1.12.4.js"></script>
+     <script src="jquery-ui.js"></script> -->
+
+     <!-- Links to jQuery CDNs -->
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script>
+    $(document).on('ready', function(){
+        $("#accordion").accordion();
+    });
+</script>
+<style type="text/css">
+	header {text-align: center;
+  }
+  body {
+  	background-image: url('waterleftborder.jpg');
+  	background-repeat:repeat-y;
+  	background-color: #FFF;
+  	font-family: Arial, Helvetica, sans-serif;
+  	color: #000;
+  	margin-left: 150px;
+  }
+</style>
+</head>
+<body>
+<header>
+<h1>Interview</h1>
+
+<h2>The Job Interview Questions</h2>
+
+<h3>These are some question you can be asked in a interview</h3>
+
+<p>
+<img alt="" height="128" src="moviecamera.png" width="162" /></p>
+</header>
+
+<hr />
+
+<div id="accordion">
+<h3>Question 1:<br />
+Interviewer: So, I see from your college transcript that you studied web design...</h3>
+
+<div>
+<p>Correct. I am interested in web develoment</p>
+</div>
+
+<h3>Question 2:<br />
+Interviewer: Tell me about the roles of HTML, CSS and javascript</h3>
+
+<div>
+<p>
+They work together to provide a interactive website.</p>
+</div>
+
+<h3>Question 3:<br />
+Was it largely a theory class or was there much hands-on?</h3>
+
+<div>
+<p>
+Mostly theory than hands-on.</p>
+</div>
+
+<h3>Question 4:<br />
+Interviewer: Did you invest much time in developing a web portfolio?</h3>
+
+<div>
+<p>
+Yes I did.</p>
+
+</div>
+
+
+</div>
+</div>
+<script src="jquery-1.12.4.js"></script>
+<script src="jquery-ui.js"></script>
+
+</body>
+</html>

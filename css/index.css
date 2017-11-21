@@ -1,0 +1,54 @@
+.header h1,
+.header h3{
+  color: white;
+}
+
+.resume{
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+  display: none;
+  margin-top: 0.8em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-indent: 0.3em;
+}
+
+.other-prj{
+  width: 100%;
+  height: auto;
+  display: none;
+  margin-top: 0.8em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-indent: 0.3em;
+}
+
+.resume h3,
+.resume h4{
+  text-decoration: underline;
+}
+
+.resume h3{
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.resume p{
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+}
+
+.prj-title{
+  color: #000;
+  font-size: 2.3em;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+.prj-title:hover{
+  text-decoration: none;
+}
+
+.other-prj ul{
+  text-decoration: none;
+}

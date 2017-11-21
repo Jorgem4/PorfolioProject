@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="main_title">
+      <h1>Information Survey</h1>
+    </div>
+
+    <form>
+      <p class="info_heading">First Name:<br>
+        <input type="text" name="First Name" placeholder="First Name" maxlength="15">
+      </p>
+
+      <p class="info_heading">Last Name:<br>
+        <input type="text" name="Last Name" placeholder="Last Name" maxlength="15">
+      </p>
+
+      <p class="info_heading">DOB:<br>
+        <input type="date" name="Date of Birth">
+      </p>
+
+      <p class="info_heading">Gender:<br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+      </p>
+
+      <p class="info_heading">Address:<br>
+        <input type="text" name="address" placeholder="Street Name" size="25" maxlength="50">
+        <input type="text" name="apt" placeholder="Apt" size="7">
+        <input type="text" name="city" placeholder="City" maxlength="20">
+        <input type="text" name="state" placeholder="State" size="2" maxlength="15">
+        <input type="text" name="zip" placeholder="Zip Code" size="10">
+      </p>
+
+      <p class="info_heading">E-mail:<br>
+        <input type="email" name="email" size="40" maxlength="40">
+      </p>
+
+      <p class="info_heading">Telephone:<br>
+        <input type="tel" name="usrtel" placeholder="(888)888-8888">
+      </p>
+
+      <p class="info_heading">Ethnicity:<br>
+        <select name="ethnicity">
+          <option value="African American">African American</option>
+          <option value="Asian">Asian</option>
+          <option value="Hipanic/Latino">Hispanic/Latino</option>
+          <option value="Native American">Native American</option>
+          <option value="Other">Other</option>
+        </select>
+      </p>
+
+      <p class="info_heading">How would you like to be contacted?<br>
+        <input type="checkbox" name="preference" value="Telephone">Telephone
+        <input type="checkbox" name="preference" value="Text">Text
+        <input type="checkbox" name="preference" value="email">Email
+      </p>
+
+      <p class="info_heading">Preferred Language:<br>
+          <input type="text" name="lang pref">
+      </p>
+
+      <div class="bottom">
+        <input class="bottom_button" type="Submit" name="submit" value="Submit">
+        <input class="bottom_button" type="Reset" name="reset" value="Reset">
+      </div>
+
+    </form>
+  </body>
+</html>
