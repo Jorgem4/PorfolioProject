@@ -7,3 +7,6 @@
   width: inherit;
   height: inherit;
 }
+.item h1{
+  font-family: 'font-awesome';
+}
